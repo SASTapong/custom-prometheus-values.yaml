@@ -7,8 +7,8 @@ alertmanagerFiles:
     receivers:
       - name: 'gmail-notifications'
         email_configs:
-        - to: inquires@sasgeeks.com
-          from:inquires@sasgeeks.com  # Update your from mail id here
+        - to: sasgeeks@gmail.com
+          from: sasgeeks@gmail.com  # Update your from mail id here
           smarthost: smtp.gmail.com:587
           auth_username: sasgeeks.com # Update your from mail id here
           auth_identity: sasgeeks.com # Update your from mail id here
